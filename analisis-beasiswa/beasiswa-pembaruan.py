@@ -58,7 +58,7 @@ def defuzzyfikasi(hasil):
 class FuzzyManual(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Seleksi Beasiswa - Analisis Fuzzy (Minimalist UI)")
+        self.setWindowTitle("Seleksi Beasiswa - Analisis Fuzzy (By: Muhamad Haikal - 231011400838)")
         self.setGeometry(200,100,950,780)
         self.setStyleSheet("""
             QWidget {
@@ -92,7 +92,7 @@ class FuzzyManual(QWidget):
         # --- Layout Utama ---
         layout = QVBoxLayout()
 
-        card = QGroupBox("🔍 Masukkan Parameter Seleksi Beasiswa")
+        card = QGroupBox("Masukkan Parameter Seleksi Beasiswa")
         card.setStyleSheet("QGroupBox { font-size: 16px; font-weight: bold; padding: 10px; }")
         form = QFormLayout()
 
