@@ -3,7 +3,6 @@ import torch.nn as nn
 import numpy as np
 import joblib
 
-
 class LSTMPredictor(nn.Module):
     def __init__(self, input_size=1, hidden_size=32, num_layers=2):
         super().__init__()
@@ -20,7 +19,6 @@ class LSTMPredictor(nn.Module):
         out = out[:, -1, :]  # ambil output timestep terakhir
         out = self.fc(out)
         return out
-
 
 def train_lstm_torch(df, save_model="model_lstm_torch.pth",
                      save_scaler="lstm_scaler.pkl",
@@ -58,7 +56,6 @@ def train_lstm_torch(df, save_model="model_lstm_torch.pth",
     joblib.dump({"scaler": scaler, "seq_len": seq_len}, save_scaler)
 
     return {"loss": float(loss.item())}
-
 
 def predict_lstm_torch(df, model_path="model_lstm_torch.pth",
                        scaler_path="lstm_scaler.pkl"):

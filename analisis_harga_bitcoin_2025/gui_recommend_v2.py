@@ -7,9 +7,6 @@ from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg
 from sklearn.svm import SVR
 from sklearn.preprocessing import StandardScaler
 
-# =========================
-# SIMPLE LSTM NUMPY
-# =========================
 class SimpleLSTM:
     def __init__(self):
         self.w = 0.8
@@ -25,7 +22,6 @@ class SimpleLSTM:
             value = value * (1 + self.w)
             preds.append(value)
         return preds
-
 
 # =========================
 # GUI

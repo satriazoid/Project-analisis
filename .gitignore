@@ -9,4 +9,4 @@ analisis_laporan_keuangan_bri/.ipynb_checkpoints/
 btc-forecast-web/backend/models/
 
 #folder venv hide
-venv
+.venv
