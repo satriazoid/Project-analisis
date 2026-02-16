@@ -97,8 +97,7 @@ Sistem ini membantu dalam penilaian kelayakan beasiswa dengan metode **Fuzzy Log
 ---
 
 ## Author
-**👨‍💻 jejo**  
-Financial Data Analyst & Machine Learning Enthusiast  
+**👨‍💻 jejo**  Financial Data Analyst & Machine Learning Enthusiast  
 
 🤝 *Collaborated with ChatGPT for Fuzzy System Development & Documentation*
 

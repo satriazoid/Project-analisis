@@ -28,8 +28,6 @@ df['Ytd Change_clean'] = df['Ytd Change'].apply(clean_numeric)
 
 print("\nDataset Awal:")
 print(df[['Country', 'Today', 'Change', 'Ytd Change']])
-
-print("\nDataset Setelah Cleaning:")
 print(df[['Country', 'Today_clean', 'Change_clean', 'Ytd Change_clean']])
 
 print("\n" + "="*50)
