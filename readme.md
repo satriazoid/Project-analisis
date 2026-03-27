@@ -104,9 +104,9 @@ Sistem ini membantu dalam penilaian kelayakan beasiswa dengan metode **Fuzzy Log
 ---
 
 ## ⚠️ Disclaimer
-⚡ Project ini **bukan saran investasi**  
-⚡ Hanya untuk edukasi, eksplorasi, dan riset data
+- Project ini **bukan saran investasi**  
+- Hanya untuk edukasi, eksplorasi, dan riset data
 
 ---
 
-✨ *Silakan eksplor, modifikasi, dan kembangkan!*
+*Silakan eksplor, modifikasi, dan kembangkan!*
